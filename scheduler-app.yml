@@ -5,3 +5,6 @@ app:
 spring:
   application:
     name: scheduler-app
+
+feature:
+  my-bean-enabled: true
