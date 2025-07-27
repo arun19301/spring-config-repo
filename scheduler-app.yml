@@ -7,4 +7,4 @@ spring:
     name: scheduler-app
 
 feature:
-  my-bean-enabled: false
+  my-bean-enabled: true
