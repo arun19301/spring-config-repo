@@ -1,0 +1,7 @@
+app:
+  scheduler:
+    cron: "0/10 * * * * *"  # every 10 seconds
+
+spring:
+  application:
+    name: scheduler-app
