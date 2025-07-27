@@ -1,10 +1,11 @@
 app:
   scheduler:
-    cron: "0/10 * * * * *"  # every 10 seconds
+    # cron: "0/10 * * * * *"  # every 10 seconds
+    cron: "0 0 31 2 * *"
 
 spring:
   application:
     name: scheduler-app
 
 feature:
-  my-bean-enabled: false
+  my-bean-enabled: true
