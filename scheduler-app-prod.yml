@@ -1,0 +1,11 @@
+app:
+  scheduler:
+    cron: "0/5 * * * * *"  # every 5 seconds
+    # cron: "0 0 0 31 2 ?"
+
+spring:
+  application:
+    name: scheduler-app
+
+feature:
+  my-bean-enabled: true
