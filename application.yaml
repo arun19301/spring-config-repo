@@ -1,0 +1,2 @@
+feature:
+  my-bean-enabled: false   # default OFF; override per-profile
