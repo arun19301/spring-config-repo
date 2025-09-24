@@ -1,6 +1,6 @@
 app:
   scheduler:
-    cron: "0/10 * * * * *"  # every 10 seconds
+    cron: "0/20 * * * * *"  # every 10 seconds
     # cron: "0 0 0 31 2 ?"
 
 spring:
